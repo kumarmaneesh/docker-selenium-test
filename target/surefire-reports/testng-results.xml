@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestChromeOnGrid" duration-ms="4235" started-at="2018-12-13T04:45:36Z" finished-at="2018-12-13T04:45:41Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4235" started-at="2018-12-13T04:45:36Z" finished-at="2018-12-13T04:45:41Z">
+      <class name="TestChromeOnGrid">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestChromeOnGrid@62043840]" name="setup" is-config="true" duration-ms="11" started-at="2018-12-13T04:45:36Z" finished-at="2018-12-13T04:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchChromeOnNode()[pri:0, instance:TestChromeOnGrid@62043840]" name="launchChromeOnNode" duration-ms="4128" started-at="2018-12-13T04:45:36Z" finished-at="2018-12-13T04:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeOnNode -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:TestChromeOnGrid@62043840]" name="tearup" is-config="true" duration-ms="83" started-at="2018-12-13T04:45:41Z" finished-at="2018-12-13T04:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- TestChromeOnGrid -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestChromeOnGrid -->
+</testng-results>
