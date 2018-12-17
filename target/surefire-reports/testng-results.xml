@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestChromeOnGrid" duration-ms="5566" started-at="2018-12-17T03:45:57Z" finished-at="2018-12-17T03:46:03Z">
+  <suite name="TestChromeOnGrid" duration-ms="5355" started-at="2018-12-17T04:09:33Z" finished-at="2018-12-17T04:09:38Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="5566" started-at="2018-12-17T03:45:57Z" finished-at="2018-12-17T03:46:03Z">
+    <test name="Command line test" duration-ms="5355" started-at="2018-12-17T04:09:33Z" finished-at="2018-12-17T04:09:38Z">
       <class name="TestChromeOnGrid">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestChromeOnGrid@62043840]" name="setup" is-config="true" duration-ms="9" started-at="2018-12-17T03:45:57Z" finished-at="2018-12-17T03:45:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestChromeOnGrid@62043840]" name="setup" is-config="true" duration-ms="14" started-at="2018-12-17T04:09:33Z" finished-at="2018-12-17T04:09:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="launchChromeOnNode()[pri:0, instance:TestChromeOnGrid@62043840]" name="launchChromeOnNode" duration-ms="5461" started-at="2018-12-17T03:45:57Z" finished-at="2018-12-17T03:46:03Z">
+        <test-method status="PASS" signature="launchChromeOnNode()[pri:0, instance:TestChromeOnGrid@62043840]" name="launchChromeOnNode" duration-ms="5255" started-at="2018-12-17T04:09:33Z" finished-at="2018-12-17T04:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchChromeOnNode -->
-        <test-method status="PASS" signature="tearup()[pri:0, instance:TestChromeOnGrid@62043840]" name="tearup" is-config="true" duration-ms="80" started-at="2018-12-17T03:46:03Z" finished-at="2018-12-17T03:46:03Z">
+        <test-method status="PASS" signature="tearup()[pri:0, instance:TestChromeOnGrid@62043840]" name="tearup" is-config="true" duration-ms="70" started-at="2018-12-17T04:09:38Z" finished-at="2018-12-17T04:09:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
