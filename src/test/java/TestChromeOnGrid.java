@@ -8,7 +8,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import sun.swing.table.DefaultTableCellHeaderRenderer;
 
 import java.net.URL;
 
@@ -27,7 +26,7 @@ public class TestChromeOnGrid {
         DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setPlatform(Platform.LINUX);
 
-        URL url = new URL("http://localhost:32770/wd/hub");
+        URL url = new URL("http://localhost:32768/wd/hub");
 
         driver = new RemoteWebDriver(url,cap);
 
