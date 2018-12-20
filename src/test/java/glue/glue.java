@@ -1,4 +1,8 @@
-/*
+package glue;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.Platform;
@@ -6,53 +10,41 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import java.net.URL;
 
-public class TestChromeOnGrid {
+public class glue {
+    private WebDriver driver;
 
-    WebDriver driver;
-
-    @BeforeTest
-    public void setup(){
-        System.out.println("runner.Test started! ");
-    }
-
-    //@Test
-    public void launchChromeOnNode() throws Exception{
+    public void launchBrowser() throws Exception{
 
         DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setPlatform(Platform.LINUX);
 
         URL url = new URL("http://localhost:32768/wd/hub");
-
         driver = new RemoteWebDriver(url,cap);
+    }
 
+    @Given("^a browser$")
+    public void a_browser() throws Throwable {
+        System.out.println("Launching Browser...");
+        launchBrowser();
+    }
+
+    @When("^user launches google website$")
+    public void user_launches_google_website() {
         driver.get("http://www.google.com");
+    }
 
+    @Then("^website title should be Google$")
+    public void website_title_should_be_Google() throws Throwable {
         System.out.println("Title is: " + driver.getTitle());
-
         driver.findElement(By.name("q")).sendKeys("seleniumhq");
         Actions actions= new Actions(driver);
-
         actions.sendKeys(Keys.ENTER);
         Thread.sleep(1000);
-
         System.out.println("Next Page Title is: " + driver.getTitle());
-
-        //System.out.println(driver.findElement(By.xpath("//h3[contains(text(),'Web Browser Automation')]")).getText());
-
         Thread.sleep(1000);
-
-    }
-
-    @AfterTest
-    public void tearup(){
         driver.quit();
-        System.out.println("runner.Test finished!");
     }
 }
-*/
