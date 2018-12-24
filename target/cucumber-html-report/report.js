@@ -38,22 +38,3 @@ formatter.step({
 formatter.match({
   "location": "glue.a_browser()"
 });
-formatter.result({
-  "duration": 2855598577,
-  "status": "passed"
-});
-formatter.match({
-  "location": "glue.user_launches_google_website()"
-});
-formatter.result({
-  "duration": 945394739,
-  "status": "passed"
-});
-formatter.match({
-  "location": "glue.website_title_should_be_Google()"
-});
-formatter.result({
-  "duration": 2397563276,
-  "status": "passed"
-});
-});
