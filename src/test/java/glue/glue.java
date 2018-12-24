@@ -21,7 +21,7 @@ public class glue {
         DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setPlatform(Platform.LINUX);
 
-        URL url = new URL("http://localhost:32768/wd/hub");
+        URL url = new URL("http://localhost:4444/wd/hub");
         driver = new RemoteWebDriver(url,cap);
     }
 
