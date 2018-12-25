@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -44,7 +45,7 @@ public class glue {
         URL url = new URL("http://"+hub_host+":4444/wd/hub");
         System.out.println(url);
         driver = new RemoteWebDriver(url,cap);
-    }
+/    }
 
     @Given("^a browser$")
     public void a_browser() throws Throwable {
