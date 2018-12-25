@@ -45,7 +45,7 @@ public class glue {
         URL url = new URL("http://"+hub_host+":4444/wd/hub");
         System.out.println(url);
         driver = new RemoteWebDriver(url,cap);
-/    }
+    }
 
     @Given("^a browser$")
     public void a_browser() throws Throwable {
