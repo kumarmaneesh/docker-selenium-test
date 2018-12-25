@@ -36,7 +36,7 @@ public class glue {
             }
         }
 
-        String hub_host = prop.getProperty("hub_host");git
+        String hub_host = prop.getProperty("hub_host");
 
         DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setPlatform(Platform.LINUX);
