@@ -1,60 +1,60 @@
 Feature: Google Home
 
-@home1
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home2
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home3
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home4
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home5
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home6
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home7
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home8
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home9
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
 Then website title should be Google
 
-@home10
+@home
 Scenario: Launch Google Home
 Given a browser
 When user launches google website
