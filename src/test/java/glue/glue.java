@@ -20,23 +20,23 @@ import java.util.Properties;
 
 public class glue {
     private WebDriver driver;
-    Properties prop = System.getProperties();
-    InputStream input=null;
-
-    {
-        try {
-            input = new FileInputStream("node.properties");
-            prop.load(input);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    String hub_host = prop.getProperty("hub_host");
 
     public void launchBrowser() throws Exception{
+        Properties prop = System.getProperties();
+        InputStream input=null;
+
+        {
+            try {
+                input = new FileInputStream("node.properties");
+                prop.load(input);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        String hub_host = prop.getProperty("hub_host");git
 
         DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setPlatform(Platform.LINUX);
