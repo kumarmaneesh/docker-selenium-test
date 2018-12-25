@@ -1,9 +1,9 @@
 #surefire
-#Tue Dec 25 13:12:25 SGT 2018
+#Tue Dec 25 13:25:17 SGT 2018
 testng.configurator=org.apache.maven.surefire.testng.conf.TestNG60Configurator
 testng.test.classpath=/Users/maneesh/Desktop/workspace/dockerandselenium/target/test-classes
 tc.0=runner.Test
-pluginPid=37783
+pluginPid=39302
 classPathUrl.0=/Users/maneesh/Desktop/workspace/dockerandselenium/target/test-classes
 classPathUrl.1=/Users/maneesh/Desktop/workspace/dockerandselenium/target/classes
 classPathUrl.2=/Users/maneesh/.m2/repository/junit/junit/4.12/junit-4.12.jar
