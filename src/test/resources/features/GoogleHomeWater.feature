@@ -1,4 +1,4 @@
-Feature: Google Home Regression Test Feature
+Feature: Google Home Water Test Feature
 
 @water
 Scenario: Launch Google Home

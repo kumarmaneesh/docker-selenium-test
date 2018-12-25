@@ -1,4 +1,4 @@
-Feature: Google Home Smoke Test Feature
+Feature: Google Home Hardness Test Feature
 
 @hardness
 Scenario: Launch Google Home

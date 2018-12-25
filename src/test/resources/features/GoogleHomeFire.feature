@@ -1,4 +1,4 @@
-Feature: Google Home Regression Test Feature
+Feature: Google Home Fire Test Feature
 
 @fire
 Scenario: Launch Google Home
