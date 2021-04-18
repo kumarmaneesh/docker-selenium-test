@@ -23,13 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e1a7ec4-4b12-4d3f-a049-66b1a2a63197" name="Default" comment="added node properties file">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/glue/glue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/glue/glue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/glue/glue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/glue/glue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +89,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -96,7 +100,7 @@
       <recent name="$PROJECT_DIR$/src/features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -136,43 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestChromeOnGrid" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dockerandselenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestChromeOnGrid" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChromeOnGrid.launchChromeOnNode" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dockerandselenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestChromeOnGrid" />
-      <option name="METHOD_NAME" value="launchChromeOnNode" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dockerandselenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRunner1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRunner1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dockerandselenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -194,18 +161,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.Test" />
-      <item itemvalue="TestNG.TestRunner1" />
-      <item itemvalue="TestNG.TestChromeOnGrid.launchChromeOnNode" />
-      <item itemvalue="TestNG.TestChromeOnGrid" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test" />
-        <item itemvalue="TestNG.TestRunner1" />
-        <item itemvalue="TestNG.TestChromeOnGrid" />
-        <item itemvalue="TestNG.TestChromeOnGrid.launchChromeOnNode" />
         <item itemvalue="TestNG.TestRunner1" />
       </list>
     </recent_temporary>
@@ -222,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1544410646559</updated>
       <workItem from="1607493496449" duration="1486000" />
-      <workItem from="1618740726840" duration="416000" />
+      <workItem from="1618740726840" duration="1630000" />
     </task>
     <task id="LOCAL-00001" summary="Added cucumber feature">
       <created>1545279283985</created>
@@ -278,10 +236,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="added more tags" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="264" y="88" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618740950451">
+    <state x="264" y="25" width="1071" height="809" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618742613816">
       <screen x="0" y="25" width="1600" height="809" />
     </state>
-    <state x="264" y="88" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1600.809@0.25.1600.809" timestamp="1618740950451" />
+    <state x="264" y="25" width="1071" height="809" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1600.809@0.25.1600.809" timestamp="1618742613816" />
+    <state x="537" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1618742612414">
+      <screen x="0" y="25" width="1600" height="809" />
+    </state>
+    <state x="537" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1600.809@0.25.1600.809" timestamp="1618742612414" />
     <state width="1558" height="290" key="GridCell.Tab.0.bottom" timestamp="1618741129455">
       <screen x="0" y="25" width="1600" height="809" />
     </state>
@@ -298,6 +260,10 @@
       <screen x="0" y="25" width="1600" height="809" />
     </state>
     <state width="1558" height="290" key="GridCell.Tab.0.right/0.25.1600.809@0.25.1600.809" timestamp="1618741129455" />
+    <state x="309" y="65" key="SettingsEditor" timestamp="1618741650627">
+      <screen x="0" y="25" width="1600" height="809" />
+    </state>
+    <state x="309" y="65" key="SettingsEditor/0.25.1600.809@0.25.1600.809" timestamp="1618741650627" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
