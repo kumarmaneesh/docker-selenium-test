@@ -66,7 +66,7 @@ public class glue {
         Thread.sleep(1000);
         System.out.println("Next Page Title is: " + driver.getTitle());
         Thread.sleep(1000);
-        driver.close();
+        //driver.close();
         driver.quit();
     }
 }
