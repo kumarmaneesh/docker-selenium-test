@@ -1,0 +1,37 @@
+version: '3.7'
+
+services:
+  hub:
+   image: maneeshkumar/selenium-hub:1.1
+   ports:
+     - "4444:4444"
+   deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+
+  chrome:
+    image: maneeshkumar/selenium-node-chrome:1.1
+    environment:
+      HUB_HOST: hub
+      HUB_PORT: 4444
+      NODE_MAX_SESSION: 2
+      NODE_MAX_INSTANCES: 2
+    deploy:
+        replicas: 2
+        placement:
+          constraints: [node.role == worker]
+    entrypoint: bash -c 'SE_OPTS="-host $$HOSTNAME" /opt/bin/entry_point.sh'
+
+  firefox:
+    image: maneeshkumar/selenium-node-firefox:1.1
+    environment:
+      HUB_HOST: hub
+      HUB_PORT: 4444
+      NODE_MAX_SESSION: 1
+      NODE_MAX_INSTANCES: 1
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role == worker]
+    entrypoint: bash -c 'SE_OPTS="-host $$HOSTNAME" /opt/bin/entry_point.sh'
