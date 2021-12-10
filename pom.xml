@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <log4j.version>2.7</log4j.version>
+        <log4j.version>2.15.0</log4j.version>
         <java.version>1.8</java.version>
         <!--drivers.dir>${basedir}/drivers</drivers.dir-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
